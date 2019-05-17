@@ -43,9 +43,6 @@ clustering method on these principal components to generate the dendrogram."
 #### Here is the Fig 1f reproduced image as close as we could get
 
 
-![Original 1f](May_2019_Epigenome/figures/original 1c.PNG) 
-
-
 ![Dendro 1f](figures/Figure1d.png)
 
 
