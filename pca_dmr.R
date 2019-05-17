@@ -1,4 +1,4 @@
-dlibrary('tidyverse')
+library('tidyverse')
 library('factoextra')
 library('ggdendro')
 library('dendextend')
