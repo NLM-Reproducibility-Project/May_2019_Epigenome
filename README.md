@@ -60,6 +60,9 @@ Supplementary Tables 2 and 3."
 
 
 #### Reproduced Extended figures 1 d,e,f
+
+![Originial](/figures/Exfig.png)
+
  
 ![Ext Fig 1d](figures/ExtFig1d.png) 
 
