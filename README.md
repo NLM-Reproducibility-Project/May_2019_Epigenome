@@ -41,3 +41,9 @@ clustering method on these principal components to generate the dendrogram."
 
 #### Here is the Fig 1f reproduced image as close as we could get
 ![Dendro 1f](figures/Figure1d.png)
+
+** GREAT Tool
+
+Original Extended Figure 1 e and f 
+
+![Original Extended](figures/Extended_figures.png)
