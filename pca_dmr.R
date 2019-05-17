@@ -1,7 +1,7 @@
-library('tidyverse')
+dlibrary('tidyverse')
 library('factoextra')
 library('ggdendro')
-library('magittr')
+library('dendextend')
 ## read in dmr file
 matr=read_tsv('~/Downloads/Supplementary_Information/Ziller_et_al_DMR_finding/DMR_final_with_level.tsv')
 
