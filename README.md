@@ -27,9 +27,12 @@ Description from supplement: "To create the dendrogram shown in **Fig. 1c**, we 
 
 #### Here is the Fig 1c reproduced image using a different workflow
 
+
 ![Original Figure 1c](figures/original_1c.png)
 
+
 ![Dendro done different](figures/figure1c.png)
+
 
 **Differentially Expressed Genes Dendrogram**
 
@@ -43,9 +46,12 @@ clustering method on these principal components to generate the dendrogram."
 
 #### Here is the Fig 1f reproduced image as close as we could get
 
+
 ![Original 1f](figures/original_1c.png)
 
+
 ![Dendro 1f](figures/Figure1d.png)
+
 
 **DMR GO Enrichment** 
 
@@ -61,12 +67,17 @@ Supplementary Tables 2 and 3."
 
 Original Extended Figure 1 e and f 
 
+
 ![Original Extended](figures/Extended_figures.png)
 
+
 #### Reproduced figures May_2019_Epigenome/figures/ExtFig1d.png 
+
  
 ![Ext Fig 1d](May_2019_Epigenome/figures/ExtFig1d.png) 
 
+
 ![Ext Fig 1e](figures/ExtFig1e.png)
+
 
 ![Ext Fig 1f](figures/ExtFig1f.png)
