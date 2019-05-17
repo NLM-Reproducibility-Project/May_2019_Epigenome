@@ -58,16 +58,11 @@ focused on the GO Biological Process and Mouse Phenotype categories and represen
 results from this analysis are shown in Extended Data Fig 1e and f. The complete results are in 
 Supplementary Tables 2 and 3." 
 
-Original Extended Figure 1 e and f 
-
-
-![Original Extended](figures/Extended_figures.png)
-
 
 #### Reproduced figures May_2019_Epigenome/figures/ExtFig1d.png 
 
  
-![Ext Fig 1d](May_2019_Epigenome/figures/ExtFig1d.png) 
+![Ext Fig 1d](figures/ExtFig1d.png) 
 
 
 ![Ext Fig 1e](figures/ExtFig1e.png)
