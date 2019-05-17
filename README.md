@@ -19,13 +19,15 @@ Guanghui Yang
 
 This was a very complex paper with a lot of different methods and outputs. The first step was to review the supplemental material and outline the methods for each section. [Check out the outline here:](/outline.pdf)
 
-Our group chose to focus on reproducing just one part of this article described as:
+Our group chose to focus on reproducing a few figures from the manuscript.
 
 **CG DMR Dendrogram**
 
 Description from supplement: "To create the dendrogram shown in **Fig. 1c**, we first used the cmdscale command from R to perform multidimensional scaling and compute the first 15 principal components of the CG DMR methylation level matrix. The percent variance explained from this multidimensional scaling is  presented in Extended Data Fig. 1c. Next, we used the heatmap.2 function in the R package gplots18 with the default distance metric, and  the Ward hierarchical clustering method on these principal components to generate the dendrogram." 
 
 #### Here is the Fig 1c reproduced image using a different workflow
+
+![Original Figure 1c](figures/original_1c.png)
 
 ![Dendro done different](figures/figure1c.png)
 
@@ -40,7 +42,9 @@ function in the R package gplots18 with the default distance metric, and the War
 clustering method on these principal components to generate the dendrogram." 
 
 #### Here is the Fig 1f reproduced image as close as we could get
-![Original 1f](figures/original 1c.PNG)
+
+![Original 1f](figures/original_1c.png)
+
 ![Dendro 1f](figures/Figure1d.png)
 
 **DMR GO Enrichment** 
@@ -61,6 +65,8 @@ Original Extended Figure 1 e and f
 
 #### Reproduced figures May_2019_Epigenome/figures/ExtFig1d.png 
  
- ![Ext Fig 1d](May_2019_Epigenome/figures/ExtFig1d.png) 
+![Ext Fig 1d](May_2019_Epigenome/figures/ExtFig1d.png) 
+
 ![Ext Fig 1e](figures/ExtFig1e.png)
+
 ![Ext Fig 1f](figures/ExtFig1f.png)
