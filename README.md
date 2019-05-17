@@ -10,7 +10,7 @@ Regina Umarova - regina.umarova@nih.gov
 
 Dongjing Wu
 
-Guanghui Yang
+Guanghui Yang - guanghui.yang@nih.gov
 
 ## Article for Reproduction
 "Human body epigenome maps reveal noncanonical DNA methylation variation," Nature. https://doi.org/10.1038/nature14465
