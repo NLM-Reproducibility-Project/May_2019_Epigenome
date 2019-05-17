@@ -59,8 +59,7 @@ results from this analysis are shown in Extended Data Fig 1e and f. The complete
 Supplementary Tables 2 and 3." 
 
 
-#### Reproduced figures May_2019_Epigenome/figures/ExtFig1d.png 
-
+#### Reproduced Extended figures 1 d,e,f
  
 ![Ext Fig 1d](figures/ExtFig1d.png) 
 
