@@ -42,7 +42,17 @@ clustering method on these principal components to generate the dendrogram."
 #### Here is the Fig 1f reproduced image as close as we could get
 ![Dendro 1f](figures/Figure1d.png)
 
-** GREAT Tool
+**DMR GO Enrichment** 
+
+Description from supplement: "We used GREAT23 with default parameters to find functional terms of genes near CG DMRs as 
+these terms indicate the potential regulatory functions of these CG DMRs. Since too many 
+DMRs can saturate the Hypergeometric Test it uses, we considered at most the top 5,000 
+DMRs sample-specific DMRs ranked (largest to smallest) by the difference (which has to be 
+greater or equal to 0.1) in methylation level between the hypermethylated and hypomethylated 
+groups as input. Furthermore, we require each of these DMRs to have at least 4 DMSs. We 
+focused on the GO Biological Process and Mouse Phenotype categories and representative 
+results from this analysis are shown in Extended Data Fig 1e and f. The complete results are in 
+Supplementary Tables 2 and 3." 
 
 Original Extended Figure 1 e and f 
 
