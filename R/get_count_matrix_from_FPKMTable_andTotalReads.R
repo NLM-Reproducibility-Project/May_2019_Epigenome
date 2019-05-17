@@ -2,21 +2,20 @@ library(EDASeq)
 # read table contains fpkm data of donor samples
 tissue_fpkm <- read.table(file = "RNA_matrix_FPKM.tsv",header = TRUE, stringsAsFactors = FALSE)
 
+# Get coordinates of genes
 chr_start <- gsub(".*:","",tissue_fpkm$locus)
-head(chr_start)
 chr_start <- gsub("-.*","",chr_start)
-head(chr_start)
 chr_end <- gsub(".*-","",tissue_fpkm$locus)
-head(chr_end)
 
 # Gene length
 tissue_fpkm$length <- abs(as.numeric(chr_start) - as.numeric(chr_end) )
 
 # Get exon length of the genes which will be used to transform FPKM back into raw count
 ensembl_gene_id <- gsub("\\..*","",tissue_fpkm$gene_id)
-head(ensembl_gene_id)
-# Are ther duplicates in the ensembl gene id? 
+
+# Are there duplicates in the ensembl gene id? 
 sum(duplicated(ensembl_gene_id)) # [1] 0 # No duplicates
+# Get exon length and GC content
 gene_length_and_gc_content <- getGeneLengthAndGCContent(ensembl_gene_id, "hsa")
 
 # Exon length of genes
@@ -59,8 +58,8 @@ ordered_donor_tissue_fpkm <- cbind(donor_tissue_fpkm[,1:9], donor_tissue_fpkm[, 
 ordered_total_reads_per_sample <- total_reads_per_sample[order(total_reads_per_sample$Abbreviation),]
 
 # Transfer FPKM data into real raw counts 
-# RPKM = (ExonMappedReads * 10^9 ) / (TotalMappedReads * ExonLength)
-# so for paired-end reads here, read_counts = 2* FPKM*(TotalMappedReads*ExonLength)/10^9
+# RPKM = (ExonMappedReads * 10^9 ) / (TotalMappedReads * ExonLength), 
+# So for paired-end reads here, read_counts = 2* FPKM*(TotalMappedReads*ExonLength)/10^9
 
 # Construct a matrix containing total reads of each sample to do calculation later
 sample_total_read_matrix <- matrix(rep(ordered_total_reads_per_sample$Mapped_RNA_seq.Reads, nrow(ordered_donor_tissue_fpkm) ), 
