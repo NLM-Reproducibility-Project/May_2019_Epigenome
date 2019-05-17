@@ -38,3 +38,6 @@ from all differentially expressed genes. The percent variance explained from thi
 multidimensional scaling is presented in Extended Data Fig. 1d. Next, we used the heatmap.2 
 function in the R package gplots18 with the default distance metric, and the Ward hierarchical 
 clustering method on these principal components to generate the dendrogram." 
+
+#### Here is the Fig 1f reproduced image as close as we could get
+![Dendro 1f](figures/Figure1d.png)
